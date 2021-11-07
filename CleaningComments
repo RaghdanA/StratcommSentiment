@@ -1,0 +1,141 @@
+sentence = "Yasmina Baroudi Arabzadeh
+Hello, I am an alumni (class of 2002) so I can take the vaccine. But I also have my cousin (not aub, but will be 48 in a few months, and is the caretaker of his mother, is it possible that he can do it as well?) we are both registered on the moph covax… See more
+ · Reply · 10 w
+Maro Tashjian
+hello, can we take pfizer as a second dose if first dose taken was astrazeneca?
+ · Reply · 11 w
+Rawad Jamaleddine
+Maro Tashjian not allowed by MoPH
+ · Reply · 11 w
+Maro Tashjian
+Rawad Jamaleddine that’s what they also told me when i reached 1214.😞
+ · Reply · 10 w
+Maro Tashjian
+Rawad Jamaleddine thank you anyway
+ · Reply · 10 w
+Dina Ezzeddine
+Maro Tashjian I did in canada. I'm not in the middle east don't know what they're policy is
+ · Reply · 11 w
+Maro Tashjian
+Dina Ezzeddine yes i am reading about mixed vaccines being better, but in lebanon not allowed yet it seems. hopefully with boosters, we will be allowed. thanks anyway.
+ · Reply · 10 w
+
+
+Rana Mneimneh
+Is it a walk in ? Because the link to first dose appointment is closed/page not opening.
+ · Reply · 10 w
+ÅbdaLlah M. Jindi
+Can this be applied for people working to INGO and still not vaccinated?
+ · Reply · 10 w
+Rawad Jamaleddine
+ÅbdaLlah M. Jindi
+Applies only to categories mentioned in this post.
+ · Reply · 10 w
+
+
+Hiba El-Kari
+Hello, are student dependents at age of 46 allowed this week?
+ · Reply · 10 w
+Rawad Jamaleddine
+Hiba El-Kari yes.
+Please check the above message and book an appointment.
+ · Reply · 10 w
+Yasmina Baroudi Arabzadeh
+Rawad Jamaleddine hello, I am an alumni (class of 2002) so I can take the vaccine. But I also have my cousin (not aub, but will be 48 in a few months, and is the caretaker of his mother, is it possible that he can do it as well?) we are both registered… See more
+ · Reply · 10 w · Edited
+
+
+Rana Mneimneh
+Rawad Jamaleddine are pregnant women considered a special case included in this vaccine campaign ?
+ · Reply · 10 w
+Youssef Nassef
+Hello are students at age 21 and not from aub allowed tomorrow?
+ · Reply · 10 w · Edited
+Hala G. Shamseddine
+Tala
+ · Reply · 10 w
+Rana Mneimneh
+Rawad Jamaleddine Is it a walk in ? Because the link to first dose appointment is closed/page not opening.
+ · Reply · 10 w
+Rawad Jamaleddine
+Rana Mneimneh walk-in only for categories mentioned in the post
+ · Reply · 10 w
+Rana Mneimneh
+Rawad Jamaleddine okay thank you
+ · Reply · 10 w
+
+
+Hussein Ammar
+hello my age is 19
+allowed this week
+ · Reply · 10 w
+Rawad Jamaleddine
+Hussein Ammar only 16 to 18
+And above 48
+ · Reply · 10 w
+
+
+Salwa Moghrabi
+Nour Hammami
+ · Reply · 11 w
+Nour Hammami
+Paty M
+ · Reply · 11 w
+
+
+Amal Zeindine
+Samer Zeina
+ · Reply · 10 w
+Lina Abou-Habib
+Hello, could you make this post shareable please? Thank you!
+ · Reply · 11 w
+Rawad Jamaleddine
+Lina Abou-Habib it’s shareable
+ · Reply · 11 w
+Lina Abou-Habib
+Rawad Jamaleddine thanks Rawad.
+ · Reply · 11 w
+
+
+Monet Dimaapi
+Hello..could I ask pls...until when its available pls.?
+Thank you
+ · Reply · 10 w
+Rawad Jamaleddine
+Monet Dimaapi until Friday. Plan for next week will be announced later.
+ · Reply · 10 w
+
+
+Ceazar Haidar
+Eligible for all aw bas yali 5aso bl AUB?
+ · Reply · 11 w
+Rawad Jamaleddine
+Ceazar Haidar eligible for anyone who meets the criteria mentioned in the message; even if not an AUBite
+ · Reply · 11 w
+Ceazar Haidar
+Rawad Jamaleddine oh okay thank u very much
+ · Reply · 11 w
+
+
+Ghinwa Barakat
+Dareen Barakat
+ · Reply · 11 w
+Jawad Ismail
+Latifa Ismail
+ · Reply · 10 w
+Moe Hamdoun
+When i try to register my sister who’s in school ( 17 years old ), i choose the “other” option, yet i’m still asked for an Aub student ID… should i put mine? Please provide us with a number to contact
+ · Reply · 11 w
+Rawad Jamaleddine
+Please put not applicable
+ · Reply · 11 w
+Moe Hamdoun
+Rawad Jamaleddine thanks mr rawad
+ · Reply · 11 w" 
+filter_out_these_words = ['Reply', '10', '11', '.'] 
+ 
+words_in_sentence = sentence.split() 
+filtered_out_words = [word for word in words_in_sentence if word.lower() not in filter_out_these_words] 
+ 
+print(' '.join(filtered_out_words))
+
